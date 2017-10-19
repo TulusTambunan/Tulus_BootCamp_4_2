@@ -1,0 +1,122 @@
+
+  
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+        </style>
+        <div class="content">
+            <div class="title m-b-md">
+                Biodata
+            </div>
+
+            <div class="links">
+                <div class="panel panel-default">
+    
+     <div class="panel-body">
+       
+
+
+
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="margin-top : 50px;">
+        <div class="form-group">
+        
+            <input type="text" class="form-control" [(ngModel)]="course.Id" ><p></p>
+            <input type="text" class="form-control" [(ngModel)]="course.Name" ><p></p>
+           
+         
+        </div>
+        <br><button class="btn btn-default" type="submit" (click)="course.add()"><b>+</b> Add User</button>
+       
+      </div>
+    </div>
+ </div>
+              
+            </div>
+        </div>
+    
+      
+
+            <div class="content">
+                <div class="title m-b-md">
+                   LISTS
+                </div>
+               
+
+                <div class="table">
+                    <div class="panel-body">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3" style="margin-top : 50px;">
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th>id</th>
+        <th>Name</th>
+       
+        
+      </tr>
+      <tr >
+          <th>{{id}}</th>
+         
+        
+        
+        
+         
+      </tr>
+    
+
+    </table>
+
+  </div>
+       </div>           
+                </div>
+            </div>
+
+    
+
+
